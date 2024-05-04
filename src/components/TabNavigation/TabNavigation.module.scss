@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justifyContent: flex-start;
+  padding: 5px 20px 5px 20px;
+}
+
+.button {
+  background-color: var(--primary-color);
+  border: none;
+  cursor: pointer;
+  font-size: var(--font-m);
+  padding: 5px 20px 5px 20px;
+  opacity: 0.6;
+}
+
+.onFocus {
+  color: var(--secondary-color);
+  outline: none;
+  outline-offset: -2px;
+  box-shadow: 0 2px 0 var(--secondary-color);
+  opacity: 1;
+}

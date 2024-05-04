@@ -1,0 +1,29 @@
+.table {
+  width: 100%;
+  border: 1px solid lightgrey;
+  color: black;
+}
+
+.header {
+  background-color: lightgrey;
+}
+
+.colName {
+  borderBottom: 1px solid #red;
+  backgroundColor: grey;
+}
+
+.positive {
+  color: #507e11;
+  text-align: center;
+}
+
+.negative {
+  color: #d91e18;
+  text-align: center;
+}
+
+.row {
+  text-align: center;
+  padding: 5px;
+}
